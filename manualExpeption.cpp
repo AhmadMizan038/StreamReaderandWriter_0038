@@ -12,4 +12,8 @@ int main()
         //blok ini akan di eksekusi
         cout << "Pengecaulian akan di eksekusi" << endl;
     }
+    catch (...) {
+        /*jika slain integer maka block ini akan di eksekusi*/
+        cout << "default Pengecualian dieksekusi" << endl;
+    }
 }
