@@ -4,7 +4,7 @@
 using namespace std;
 
 int main()
-(
+{
     string baris;
 
     //operasi file dalam mode menulis
@@ -13,4 +13,10 @@ int main()
     outfile.open("contoh.txt");
 
     cout << ">= Menulis file, \'q\'untuk keluar" << endl;
-)
+
+    //unlimeted loop untuk menulis
+    while (true) {
+        cout << "- ";
+    }
+
+}
