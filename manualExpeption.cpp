@@ -16,4 +16,5 @@ int main()
         /*jika slain integer maka block ini akan di eksekusi*/
         cout << "default Pengecualian dieksekusi" << endl;
     }
+    
 }
